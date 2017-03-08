@@ -7,10 +7,10 @@ Stats &amp; Shenanigans from the Bloomington Skeeball League
 
 ### SPRING 2017 FRANCHISES
 
-- #### Minnesota Mini-Muffins
-- #### Chicago Cats
-- #### Denver Dragons
-- #### Trenton Tossers
+- Minnesota Mini-Muffins (1-0)
+- Chicago Cats (1-0)
+- Denver Dragons (0-1)
+- Trenton Tossers (0-1)
 
 #### TEAM PLAY RULES
 - Team matches are 5 frames (45 balls) 
