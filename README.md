@@ -1,6 +1,3 @@
-# BMGSkeeball
-Stats &amp; Shenanigans from the Bloomington Skeeball League
-
 # Bloomington (BMG) Skeeball League
 
 ## TEAM PLAY
