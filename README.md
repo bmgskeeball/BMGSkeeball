@@ -4,10 +4,10 @@
 
 ### SPRING 2017 FRANCHISES
 
-- Minnesota Mini-Muffins (1-0)
-- Chicago Cats (1-0)
-- Denver Dragons (0-1)
-- Trenton Tossers (0-1)
+- Minnesota Mini-Muffins (2-0)
+- Chicago Cats (1-1)
+- Trenton Tossers (1-1)
+- Denver Dragons (0-2)
 
 #### TEAM PLAY RULES
 - Team matches are 5 frames (45 balls) 
