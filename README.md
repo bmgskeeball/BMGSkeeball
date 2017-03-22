@@ -2,12 +2,12 @@
 
 ## TEAM PLAY
 
-### SPRING 2017 FRANCHISES
+### MARCH 2017 FRANCHISES
 
-- Minnesota Mini-Muffins (2-0)
-- Chicago Cats (1-1)
-- Trenton Tossers (1-1)
-- Denver Dragons (0-2)
+- Minnesota Mini-Muffins (2-1) *Qualified for March team championship*
+- Trenton Tossers (2-1) *Qualified for March team championship*
+- Denver Dragons (1-2)
+- Chicago Cats (1-2)
 
 #### TEAM PLAY RULES
 - Team matches are 5 frames (45 balls) 
