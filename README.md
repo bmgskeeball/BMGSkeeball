@@ -12,8 +12,7 @@
 #### TEAM PLAY RULES
 - Team matches are 5 frames (45 balls) 
 - H2H matches (Each frame worth a point. Team with most points wins match.)
-- Seasons lasts 6 weeks, then top two teams face off for H2H team title.
-- Supporters Shield awarded to team with most points at end of regular season (6 matches)
+- Seasons lasts 3 weeks, then top two teams face off for H2H team title.
 - Each player on team must bowl at least 1 frame (9 balls)
 
 #### SOLO CHAMPIONSHIP
