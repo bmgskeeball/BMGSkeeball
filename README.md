@@ -1,13 +1,6 @@
 # Bloomington (BMG) Skeeball League
 
-## TEAM PLAY
-
-### MARCH 2017 FRANCHISES
-
-- **Minnesota Mini-Muffins** (2-1) *Qualified for March team championship*
-- **Trenton Tossers** (2-1) *Qualified for March team championship*
-- Denver Dragons (1-2)
-- Chicago Cats (1-2)
+## The Bloomington, Indiana Skeeball League is Indiana's only competitive skeeball league. We play monthly seasons (called skeesons) with teams comprised of 1-5 players. Each week, we play both singles (individual) play and team matches (head to head). At the end of each skeeson, the top two teams face off for the league title. We also do an elimination championship tournament for solo players. All matches are played at Atlas Ballroom in Bloomington at 730pm on Tuesday nights. 
 
 #### TEAM PLAY RULES
 - Team matches are 5 frames (45 balls) 
