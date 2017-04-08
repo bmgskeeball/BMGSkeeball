@@ -1,8 +1,8 @@
 # Bloomington (BMG) Skeeball League
 
-## The Bloomington, Indiana Skeeball League is Indiana's only competitive skeeball league. We play monthly seasons (called skeesons) with teams comprised of 1-5 players. 
+The Bloomington, Indiana Skeeball League is Indiana's only competitive skeeball league. We play monthly seasons (called skeesons) with teams comprised of 1-5 players.  
 
-## Each week, we play both singles (individual) play and team matches (head to head). At the end of each skeeson, the top two teams face off for the league title. We also do an elimination championship tournament for solo players. All matches are played at Atlas Ballroom in Bloomington at 730pm on Tuesday nights. 
+Each week, we play both singles (individual) play and team matches (head to head). At the end of each skeeson, the top two teams face off for the league title. We also do an elimination championship tournament for solo players. All matches are played at Atlas Ballroom in Bloomington at 730pm on Tuesday nights. 
 
 #### TEAM PLAY RULES
 - Team matches are 5 frames (45 balls) 
