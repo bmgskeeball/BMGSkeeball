@@ -16,7 +16,3 @@ Each week, we play both singles (individual) play and team matches (head to head
 - 4 frames (36 balls)
 - To be eligible for solo championship tournament, must bowl in at least one of the regular season weeks.
 
-#### ROOKIE LEAGUE CHAMPIONSHIP
-- For anyone who shows up during championship week.
-- A head-to-head event for individuals, seeded randomly. 
-
