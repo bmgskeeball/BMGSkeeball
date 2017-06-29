@@ -1,0 +1,673 @@
+<html lang="en">
+  <head>
+    <title>Bloomington (BMG) Skeeball League - Indiana
+    </title>
+    <meta name="description" content="Bloomington Skeeball League is the only competitive skeeball league in Indiana, Ohio or Kentucky.">
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="author" content="@ronbronson">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://unpkg.com/tachyons/css/tachyons.min.css">
+<style>
+  .blue { color: #0074D9; }
+  .bg-blue { background-color: #0074D9; }
+
+  .carbon-poweredby { width: 100%; font-size: 12px; float: left; }
+  .carbon-wrap { float: left; width: 100%; box-sizing: border-box; }
+  .carbon-img  { float: left; width: 50%;  box-sizing: border-box; }
+  .carbon-text  { float: left; width: 50%; padding-left: 16px; box-sizing: border-box; font-size: 12px; }
+
+  #carbonads a:link { text-decoration: none!important; color: #222!important; }
+
+</style>
+
+  </head>
+  <body class="w-100 sans-serif">
+    <header class="w-100 pa3 ph5-ns bg-white">
+  <div class="db dt-ns mw9 center w-100">
+    <div class="db dtc-ns v-mid tl w-50">
+      <a href="/" class="dib f5 f4-ns fw6 mt0 mb1 link black-70" title="Home">
+      Bloomington (BMG) Skeeball League
+      </a>
+    </div>
+    <nav class="db dtc-ns v-mid w-100 tl tr-ns mt2 mt0-ns">
+      <a title="Facebook" href="http://facebook.com/bmgskeeball"
+          class="f6 fw6 hover-blue link black-70 mr2 mr3-m mr4-l dib">
+        Facebook
+      </a>
+      <a title="Instagram" href="http://instagram.com/bmgskeeball"
+          class="f6 fw6 hover-blue link black-70 mr2 mr3-m mr4-l dib">
+        Instagram
+      </a>
+      <a title="BMG Skeeball on Github" href="https://github.com/quarterback/BMGSkeeball"
+          class="f6 fw6 hover-blue link black-70 mr2 mr3-m mr4-l dn dib-l">
+        GitHub
+      </a>
+    </nav>
+  </div>
+</header>
+
+    <main class="w-100 bt b--black-10 bg-white">
+      <section class="bg-black-0125 w-100">
+        <article class="pb4">
+          <header class="ph3 ph5-ns w-100 bg-transparent pv3 mb4 mb5-ns bb b--black-10 overflow-auto">
+            <div class="nowrap mw9 center">
+              <a title="Standings" href="#team"
+                  class="pv1-ns f6 fw6 dim link black-70 mr1 mr3-m mr4-l dib">
+                Team Standings
+              </a>
+               <a title="Rules" href="#rules"
+                  class="pv1-ns f6 fw6 dim link black-70 mr1 mr3-m mr4-l dib">
+                Rules
+              </a>
+           <a title="Player Stats" href="#stats"
+                  class="pv1-ns f6 fw6 dim link black-70 mr1 mr3-m mr4-l dib">
+                Player Stats
+              </a>
+            </div>
+          </header>
+
+
+          <section class="ph3 ph5-ns pv5">
+  <article class="mw8 center br2 ba b--light-blue bg-lightest-blue">
+    <div class="dt-ns dt--fixed-ns w-100">
+      <div class="pa3 pa4-ns dtc-ns v-mid">
+        <div>
+          <h2 class="fw4 blue mt0 mb3">Have Fun! Play Skeeball!</h2>
+          <p class="black-70 measure lh-copy mv0">
+        Indiana's Premier Skeeball League meets at <a href="http://theatlasballroom.com">Atlas Ballroom (209 S College, Bloomington)</a> on Wednesdays at 5:30p & 7pm)
+          </p>
+        </div>
+      </div>
+      <div class="pa3 pa4-ns dtc-ns v-mid">
+        <a href="http://facebook.com/bmgskeeball" class="no-underline f6 tc db w-100 pv3 bg-animate bg-blue hover-bg-dark-blue white br2">We're on Facebook!</a>
+      </div>
+    </div>
+  </article>
+</section>
+
+<style>
+	/* info (hed, dek, source, credit) */
+.rg-container {
+	font-family: 'Lato', Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.4;
+	margin: 0;
+	padding: 1em 0.5em;
+	color: #222;
+}
+.rg-header {
+	margin-bottom: 1em;
+	text-align: left;
+}
+
+.rg-header > * {
+	display: block;
+}
+.rg-hed {
+	font-weight: bold;
+	font-size: 1.4em;
+}
+.rg-dek {
+	font-size: 1em;
+}
+
+.rg-source {
+	margin: 0;
+	font-size: 0.75em;
+	text-align: right;
+}
+.rg-source .pre-colon {
+	text-transform: uppercase;
+}
+
+.rg-source .post-colon {
+	font-weight: bold;
+}
+
+/* table */
+table.rg-table {
+	width: 100%;
+	margin-bottom: 0.5em;
+	font-size: 1em;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+table.rg-table tr {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	text-align: left;
+	color: #333;
+}
+table.rg-table thead {
+	border-bottom: 3px solid #ddd;
+}
+table.rg-table tr {
+	border-bottom: 1px solid #ddd;
+	color: #222;
+}
+table.rg-table tr.highlight {
+	background-color: #dcf1f0 !important;
+}
+table.rg-table.zebra tr:nth-child(even) {
+	background-color: #f6f6f6;
+}
+table.rg-table th {
+	font-weight: bold;
+	padding: 0.35em;
+	font-size: 0.9em;
+}
+table.rg-table td {
+	padding: 0.35em;
+	font-size: 0.9em;
+}
+table.rg-table .highlight td {
+	font-weight: bold;
+}
+table.rg-table th.number, td.number {
+	text-align: right;
+}
+
+/* media queries */
+@media screen and (max-width: 600px) {
+.rg-container {
+	max-width: 600px;
+	margin: 0 auto;
+}
+table.rg-table {
+	width: 100%;
+}
+table.rg-table tr.hide-mobile, table.rg-table th.hide-mobile, table.rg-table td.hide-mobile {
+	display: none;
+}
+table.rg-table thead {
+	display: none;
+}
+table.rg-table tbody {
+	width: 100%;
+}
+table.rg-table tr, table.rg-table th, table.rg-table td {
+	display: block;
+	padding: 0;
+}
+table.rg-table tr {
+	border-bottom: none;
+	margin: 0 0 1em 0;
+	padding: 0.5em;
+}
+table.rg-table tr.highlight {
+	background-color: inherit !important;
+}
+table.rg-table.zebra tr:nth-child(even) {
+	background-color: none;
+}
+table.rg-table.zebra td:nth-child(even) {
+	background-color: #f6f6f6;
+}
+table.rg-table tr:nth-child(even) {
+	background-color: none;
+}
+table.rg-table td {
+	padding: 0.5em 0 0.25em 0;
+	border-bottom: 1px dotted #ccc;
+	text-align: right;
+}
+table.rg-table td[data-title]:before {
+	content: attr(data-title);
+	font-weight: bold;
+	display: inline-block;
+	content: attr(data-title);
+	float: left;
+	margin-right: 0.5em;
+	font-size: 0.95em;
+}
+table.rg-table td:last-child {
+	padding-right: 0;
+	border-bottom: 2px solid #ccc;
+}
+table.rg-table td:empty {
+	display: none;
+}
+table.rg-table .highlight td {
+	background-color: inherit;
+	font-weight: normal;
+}
+}
+
+</style>
+<div class='rg-container' id="stats">
+	<div class='rg-content'>
+		<table class='rg-table zebra' summary='BMG Skeeball Season #4'>
+			<caption class='rg-header'>
+				<span class='rg-hed'>BMG Skeeball Season #4</span>
+				<span class='rg-dek'>Individual Stats as of June 29, 2017</span>
+			</caption>
+			<thead>
+			<tr>
+				<th class='text '>PLAYER</th>
+				<th class='number '>TOTAL</th>
+				<th class='number '>BEST</th>
+				<th class='number '>300+ GAMES</th>
+				<th class='number '>400+ GAMES</th>
+				<th class='number '>BONUS</th>
+				<th class='number '>ACTUAL</th>
+				<th class='number '>CAREER AVG</th>
+				<th class='number '>H/L</th>
+				<th class='number '>CAREER BEST</th>
+				<th class='number '>FRAMES</th>
+				<th class='number '>HDCP</th>
+				<th class='number '>TICKETS</th>
+			</tr>
+			</thead>
+			<tbody>
+
+			<tr class=''>
+				<td class='text ' data-title='PLAYER'>Ron</td>
+				<td class='number ' data-title='TOTAL'>14300</td>
+				<td class='number ' data-title='BEST'>408</td>
+				<td class='number ' data-title='300+ GAMES'>19</td>
+				<td class='number ' data-title='400+ GAMES'>2</td>
+				<td class='number ' data-title='BONUS'>300</td>
+				<td class='number ' data-title='ACTUAL'>286</td>
+				<td class='number ' data-title='CAREER AVG'>260</td>
+				<td class='number ' data-title='H/L'>290</td>
+				<td class='number ' data-title='CAREER BEST'>342</td>
+				<td class='number ' data-title='FRAMES'>50</td>
+				<td class='number ' data-title='HDCP'>-6</td>
+				<td class='number ' data-title='TICKETS'>3825</td>
+			</tr>
+
+
+			<tr class=''>
+				<td class='text ' data-title='PLAYER'>Jessika</td>
+				<td class='number ' data-title='TOTAL'>12480</td>
+				<td class='number ' data-title='BEST'>333</td>
+				<td class='number ' data-title='300+ GAMES'>4</td>
+				<td class='number ' data-title='400+ GAMES'>0</td>
+				<td class='number ' data-title='BONUS'>200</td>
+				<td class='number ' data-title='ACTUAL'>250</td>
+				<td class='number ' data-title='CAREER AVG'>229</td>
+				<td class='number ' data-title='H/L'>244</td>
+				<td class='number ' data-title='CAREER BEST'>277</td>
+				<td class='number ' data-title='FRAMES'>50</td>
+				<td class='number ' data-title='HDCP'>30</td>
+				<td class='number ' data-title='TICKETS'>3160</td>
+			</tr>
+
+
+			<tr class=''>
+				<td class='text ' data-title='PLAYER'>Nicholas</td>
+				<td class='number ' data-title='TOTAL'>8420</td>
+				<td class='number ' data-title='BEST'>375</td>
+				<td class='number ' data-title='300+ GAMES'>11</td>
+				<td class='number ' data-title='400+ GAMES'>1</td>
+				<td class='number ' data-title='BONUS'>0</td>
+				<td class='number ' data-title='ACTUAL'>281</td>
+				<td class='number ' data-title='CAREER AVG'>254</td>
+				<td class='number ' data-title='H/L'>280</td>
+				<td class='number ' data-title='CAREER BEST'>330</td>
+				<td class='number ' data-title='FRAMES'>30</td>
+				<td class='number ' data-title='HDCP'>-1</td>
+				<td class='number ' data-title='TICKETS'>2245</td>
+			</tr>
+
+
+			<tr class=''>
+				<td class='text ' data-title='PLAYER'>Nicole</td>
+				<td class='number ' data-title='TOTAL'>2210</td>
+				<td class='number ' data-title='BEST'>255</td>
+				<td class='number ' data-title='300+ GAMES'>0</td>
+				<td class='number ' data-title='400+ GAMES'>0</td>
+				<td class='number ' data-title='BONUS'>0</td>
+				<td class='number ' data-title='ACTUAL'>221</td>
+				<td class='number ' data-title='CAREER AVG'>249</td>
+				<td class='number ' data-title='H/L'>221</td>
+				<td class='number ' data-title='CAREER BEST'>263</td>
+				<td class='number ' data-title='FRAMES'>10</td>
+				<td class='number ' data-title='HDCP'>59</td>
+				<td class='number ' data-title='TICKETS'>553</td>
+			</tr>
+
+
+			<tr class=''>
+				<td class='text ' data-title='PLAYER'>Pat</td>
+				<td class='number ' data-title='TOTAL'>2400</td>
+				<td class='number ' data-title='BEST'>275</td>
+				<td class='number ' data-title='300+ GAMES'>1</td>
+				<td class='number ' data-title='400+ GAMES'>0</td>
+				<td class='number ' data-title='BONUS'>0</td>
+				<td class='number ' data-title='ACTUAL'>240</td>
+				<td class='number ' data-title='CAREER AVG'>204</td>
+				<td class='number ' data-title='H/L'>243</td>
+				<td class='number ' data-title='CAREER BEST'>262</td>
+				<td class='number ' data-title='FRAMES'>10</td>
+				<td class='number ' data-title='HDCP'>40</td>
+				<td class='number ' data-title='TICKETS'>610</td>
+			</tr>
+
+
+			<tr class=''>
+				<td class='text ' data-title='PLAYER'>Bryan</td>
+				<td class='number ' data-title='TOTAL'>940</td>
+				<td class='number ' data-title='BEST'>235</td>
+				<td class='number ' data-title='300+ GAMES'>0</td>
+				<td class='number ' data-title='400+ GAMES'>0</td>
+				<td class='number ' data-title='BONUS'>0</td>
+				<td class='number ' data-title='ACTUAL'>235</td>
+				<td class='number ' data-title='CAREER AVG'>219</td>
+				<td class='number ' data-title='H/L'>235</td>
+				<td class='number ' data-title='CAREER BEST'>259</td>
+				<td class='number ' data-title='FRAMES'>4</td>
+				<td class='number ' data-title='HDCP'>45</td>
+				<td class='number ' data-title='TICKETS'>235</td>
+			</tr>
+
+
+			<tr class=''>
+				<td class='text ' data-title='PLAYER'>Joe</td>
+				<td class='number ' data-title='TOTAL'>7500</td>
+				<td class='number ' data-title='BEST'>323</td>
+				<td class='number ' data-title='300+ GAMES'>4</td>
+				<td class='number ' data-title='400+ GAMES'>0</td>
+				<td class='number ' data-title='BONUS'>0</td>
+				<td class='number ' data-title='ACTUAL'>250</td>
+				<td class='number ' data-title='CAREER AVG'>241</td>
+				<td class='number ' data-title='H/L'>250</td>
+				<td class='number ' data-title='CAREER BEST'>319</td>
+				<td class='number ' data-title='FRAMES'>30</td>
+				<td class='number ' data-title='HDCP'>30</td>
+				<td class='number ' data-title='TICKETS'>1915</td>
+			</tr>
+
+
+			<tr class=''>
+				<td class='text ' data-title='PLAYER'>Julie</td>
+				<td class='number ' data-title='TOTAL'>680</td>
+				<td class='number ' data-title='BEST'>N/A</td>
+				<td class='number ' data-title='300+ GAMES'>0</td>
+				<td class='number ' data-title='400+ GAMES'>0</td>
+				<td class='number ' data-title='BONUS'>0</td>
+				<td class='number ' data-title='ACTUAL'>227</td>
+				<td class='number ' data-title='CAREER AVG'>N/A</td>
+				<td class='number ' data-title='H/L'>250</td>
+				<td class='number ' data-title='CAREER BEST'>286</td>
+				<td class='number ' data-title='FRAMES'>3</td>
+				<td class='number ' data-title='HDCP'>53</td>
+				<td class='number ' data-title='TICKETS'>170</td>
+			</tr>
+
+
+			<tr class=''>
+				<td class='text ' data-title='PLAYER'>Cliff</td>
+				<td class='number ' data-title='TOTAL'>640</td>
+				<td class='number ' data-title='BEST'>N/A</td>
+				<td class='number ' data-title='300+ GAMES'>0</td>
+				<td class='number ' data-title='400+ GAMES'>0</td>
+				<td class='number ' data-title='BONUS'>0</td>
+				<td class='number ' data-title='ACTUAL'>213</td>
+				<td class='number ' data-title='CAREER AVG'>N/A</td>
+				<td class='number ' data-title='H/L'>210</td>
+				<td class='number ' data-title='CAREER BEST'>282</td>
+				<td class='number ' data-title='FRAMES'>3</td>
+				<td class='number ' data-title='HDCP'>67</td>
+				<td class='number ' data-title='TICKETS'>160</td>
+			</tr>
+
+
+			<tr class=''>
+				<td class='text ' data-title='PLAYER'>Anna</td>
+				<td class='number ' data-title='TOTAL'>2210</td>
+				<td class='number ' data-title='BEST'>265</td>
+				<td class='number ' data-title='300+ GAMES'>0</td>
+				<td class='number ' data-title='400+ GAMES'>0</td>
+				<td class='number ' data-title='BONUS'>0</td>
+				<td class='number ' data-title='ACTUAL'>221</td>
+				<td class='number ' data-title='CAREER AVG'>N/A</td>
+				<td class='number ' data-title='H/L'>223</td>
+				<td class='number ' data-title='CAREER BEST'>N/A</td>
+				<td class='number ' data-title='FRAMES'>10</td>
+				<td class='number ' data-title='HDCP'>59</td>
+				<td class='number ' data-title='TICKETS'>553</td>
+			</tr>
+
+
+			<tr class=''>
+				<td class='text ' data-title='PLAYER'>Wells</td>
+				<td class='number ' data-title='TOTAL'>5800</td>
+				<td class='number ' data-title='BEST'>283</td>
+				<td class='number ' data-title='300+ GAMES'>1</td>
+				<td class='number ' data-title='400+ GAMES'>0</td>
+				<td class='number ' data-title='BONUS'>100</td>
+				<td class='number ' data-title='ACTUAL'>223</td>
+				<td class='number ' data-title='CAREER AVG'>N/A</td>
+				<td class='number ' data-title='H/L'>233</td>
+				<td class='number ' data-title='CAREER BEST'>N/A</td>
+				<td class='number ' data-title='FRAMES'>26</td>
+				<td class='number ' data-title='HDCP'>57</td>
+				<td class='number ' data-title='TICKETS'>1460</td>
+			</tr>
+
+
+			<tr class=''>
+				<td class='text ' data-title='PLAYER'>Eoban</td>
+				<td class='number ' data-title='TOTAL'>7390</td>
+				<td class='number ' data-title='BEST'>328</td>
+				<td class='number ' data-title='300+ GAMES'>5</td>
+				<td class='number ' data-title='400+ GAMES'>0</td>
+				<td class='number ' data-title='BONUS'>0</td>
+				<td class='number ' data-title='ACTUAL'>246</td>
+				<td class='number ' data-title='CAREER AVG'>251</td>
+				<td class='number ' data-title='H/L'>244</td>
+				<td class='number ' data-title='CAREER BEST'>304</td>
+				<td class='number ' data-title='FRAMES'>30</td>
+				<td class='number ' data-title='HDCP'>34</td>
+				<td class='number ' data-title='TICKETS'>1898</td>
+			</tr>
+
+
+			<tr class=''>
+				<td class='text ' data-title='PLAYER'>Isabel</td>
+				<td class='number ' data-title='TOTAL'>4530</td>
+				<td class='number ' data-title='BEST'>310</td>
+				<td class='number ' data-title='300+ GAMES'>2</td>
+				<td class='number ' data-title='400+ GAMES'>0</td>
+				<td class='number ' data-title='BONUS'>0</td>
+				<td class='number ' data-title='ACTUAL'>227</td>
+				<td class='number ' data-title='CAREER AVG'>N/A</td>
+				<td class='number ' data-title='H/L'>241</td>
+				<td class='number ' data-title='CAREER BEST'>N/A</td>
+				<td class='number ' data-title='FRAMES'>20</td>
+				<td class='number ' data-title='HDCP'>54</td>
+				<td class='number ' data-title='TICKETS'>1153</td>
+			</tr>
+
+
+			<tr class=''>
+				<td class='text ' data-title='PLAYER'>Zon</td>
+				<td class='number ' data-title='TOTAL'>2190</td>
+				<td class='number ' data-title='BEST'>235</td>
+				<td class='number ' data-title='300+ GAMES'>0</td>
+				<td class='number ' data-title='400+ GAMES'>0</td>
+				<td class='number ' data-title='BONUS'>0</td>
+				<td class='number ' data-title='ACTUAL'>199</td>
+				<td class='number ' data-title='CAREER AVG'>239</td>
+				<td class='number ' data-title='H/L'>250</td>
+				<td class='number ' data-title='CAREER BEST'>N/A</td>
+				<td class='number ' data-title='FRAMES'>11</td>
+				<td class='number ' data-title='HDCP'>81</td>
+				<td class='number ' data-title='TICKETS'>548</td>
+			</tr>
+
+
+			<tr class=''>
+				<td class='text ' data-title='PLAYER'>Amanda</td>
+				<td class='number ' data-title='TOTAL'>1940</td>
+				<td class='number ' data-title='BEST'>220</td>
+				<td class='number ' data-title='300+ GAMES'>0</td>
+				<td class='number ' data-title='400+ GAMES'>0</td>
+				<td class='number ' data-title='BONUS'>0</td>
+				<td class='number ' data-title='ACTUAL'>194</td>
+				<td class='number ' data-title='CAREER AVG'>195</td>
+				<td class='number ' data-title='H/L'>193</td>
+				<td class='number ' data-title='CAREER BEST'>211</td>
+				<td class='number ' data-title='FRAMES'>10</td>
+				<td class='number ' data-title='HDCP'>86</td>
+				<td class='number ' data-title='TICKETS'>485</td>
+			</tr>
+
+			</tbody>
+		</table>
+	</div>
+	<div class='rg-source'>
+		<span class='pre-colon'>SOURCE</span>: <span class='post-colon'>League Office</span>
+	</div>
+</div>
+<div class='rg-container' id="team">
+  <div class='rg-content'>
+		<table class='rg-table zebra' summary='BMG Skeeball Season #3'>
+			<caption class='rg-header'>
+				<span class='rg-hed'>BMG Skeeball Season #3</span>
+				<span class='rg-dek'>Final Team Total Points (May 23, 2017)</span>
+			</caption>
+			<thead>
+				<tr>
+					<th class='number '>TOTAL</th>
+				<th class='number '>TEAM STATS</th>
+				</tr>
+			</thead>
+			<tbody>
+
+				<tr class=''>
+					<td class='number ' data-title='TOTAL'>16610</td>
+					<td class='number ' data-title='TEAM STATS'>Jasper Juggernauts</td>
+				</tr>
+
+
+				<tr class=''>
+					<td class='number ' data-title='TOTAL'>19310</td>
+					<td class='number ' data-title='TEAM STATS'>Piccolos</td>
+				</tr>
+
+
+				<tr class=''>
+					<td class='number ' data-title='TOTAL'>16470</td>
+					<td class='number ' data-title='TEAM STATS'>Party Trap</td>
+				</tr>
+
+
+				<tr class=''>
+					<td class='number ' data-title='TOTAL'>4420</td>
+					<td class='number ' data-title='TEAM STATS'>Tossers</td>
+				</tr>
+
+
+				<tr class=''>
+					<td class='number ' data-title='TOTAL'>18290</td>
+					<td class='number ' data-title='TEAM STATS'>Moorgia</td>
+				</tr>
+
+			</tbody>
+		</table>
+	</div>
+	<div class='rg-source'>
+		<span class='pre-colon'>SOURCE</span>: <span class='post-colon'>League Office</span>
+	</div>
+</div>
+
+
+
+<div class="pa3 pa5-ns">
+  <h4 class="f6 fw6">Glossary</h4>
+  <dl class="f6 lh-title mv2">
+    <dt class="dib b">W:</dt>
+    <dd class="dib ml0 gray">Wins</dd>
+  </dl>
+  <dl class="f6 lh-title mv2">
+    <dt class="dib b">L:</dt>
+    <dd class="dib ml0 gray">Losses</dd>
+  </dl>
+  <dl class="f6 lh-title mv2">
+    <dt class="dib b">PF</dt>
+    <dd class="dib ml0 gray">Points Scored</dd>
+  </dl>
+  <dl class="f6 lh-title mv2">
+    <dt class="dib b">PA</dt>
+    <dd class="dib ml0 gray">Points Allowed</dd>
+  </dl>
+  <dl class="f6 lh-title mv2">
+    <dt class="dib b">PD</dt>
+    <dd class="dib ml0 gray">Points Differential</dd>
+  </dl>
+  <dl class="f6 lh-title mv2">
+    <dt class="dib b">BEST</dt>
+    <dd class="dib ml0 gray">(Top 4 frames over the entire season.)</dd>
+  </dl>
+  <dl class="f6 lh-title mv2">
+    <dt class="dib b">300+ GAMES/400+ GAMES  </dt>
+    <dd class="dib ml0 gray">300/400 Point (or more) games during the season  </dd>
+  </dl>
+  <dl class="f6 lh-title mv2">
+    <dt class="dib b">ACTUAL</dt>
+    <dd class="dib ml0 gray">Total Points divided by # of Frames</dd>
+  </dl>
+  <dl class="f6 lh-title mv2">
+    <dt class="dib b">CAREER AVG</dt>
+    <dd class="dib ml0 gray">Player's Season Avgs divided by # of seasons</dd>
+  </dl>
+  <dl class="f6 lh-title mv2">
+    <dt class="dib b">H/L</dt>
+    <dd class="dib ml0 gray">Season average with highest & lowest score removed</dd>
+  </dl>
+  <dl class="f6 lh-title mv2">
+    <dt class="dib b">FRAMES</dt>
+    <dd class="dib ml0 gray">Number of Frames (9 balls per frame) played</dd>
+  </dl>
+  <dl class="f6 lh-title mv2">
+    <dt class="dib b">AVG BALL</dt>
+    <dd class="dib ml0 gray">Average Points Scored Per Ball</dd>
+  </dl>
+  <dl class="f6 lh-title mv2">
+    <dt class="dib b">HDCT</dt>
+    <dd class="dib ml0 gray">Handicap (Points added to score in team play for competitive balance. Negative handicaps register as '0')</dd>
+  </dl>
+  <dl class="f6 lh-title mv2">
+    <dt class="dib b">TICKETS</dt>
+    <dd class="dib ml0 gray">Prize tickets won. 4 tickets per 100. Bonuses for 300+ and 400+ scores.</dd>
+  </dl>
+</div>
+
+          <div class="tl bt b--black-10 pa3 pa5-ns bg-lightest-blue navy" id="rules">
+            <div class="mw9 center">
+              <h1 class="f5 ttu tracked fw6">Rules</h1>
+              <section class="lh-copy">
+                <div class="cf">
+                  <article class="fl pv2 w-100 w-third-l pr4-l">
+                    <h2 class="f5 f4-ns fw6 mb0">Team Play</h2>
+                    <p class="f6 f5-ns measure lh-copy mt0">
+                      Each team member plays 10 frames (90 balls). Most team points wins. Top two teams compete for league title.
+                    </p>
+                  </article>
+                  <article class="pv2 fl w-100 w-third-l pl4-l">
+                    <h2 class="f5 f4-ns  fw6 mb0">
+                    Awards
+                    </h2>
+                    <p class="f6 f5-ns measure lh-copy mt0">
+                    Team points championship (most points in a season)
+                    Individual points title (Highest average points per frame)
+                    Playoff championship (Top 2 teams at end of season)
+                    Individual championship (Bracket of all qualifying players over season)
+                    Wooden Spoon (Lowest average scoring player over season)
+                    </p>
+                  </article>
+</div>
+
+
+
+</body>
+</html>
