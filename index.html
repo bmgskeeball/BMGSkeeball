@@ -20,7 +20,13 @@
   #carbonads a:link { text-decoration: none!important; color: #222!important; }
 
 </style>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="./stupidtable.min.js"></script>
+  <script>
+    $(function(){
+        $("table").stupidtable();
+    });
+  </script>
   </head>
   <body class="w-100 sans-serif">
     <header class="w-100 pa3 ph5-ns bg-white">
@@ -240,6 +246,18 @@ table.rg-table .highlight td {
 }
 }
 
+th[data-sort]{
+      cursor:pointer;
+}
+
+th.sorting-asc::after {
+	content: ' ▲';	
+}
+
+th.sorting-desc::after {
+	content: ' ▼';	
+}
+
 </style>
 <div class='rg-container' id="stats">
 	<div class='rg-content'>
@@ -250,19 +268,19 @@ table.rg-table .highlight td {
 			</caption>
 			<thead>
 			<tr>
-				<th class='text '>PLAYER</th>
-				<th class='number '>TOTAL</th>
-				<th class='number '>BEST</th>
-				<th class='number '>300+ GAMES</th>
-				<th class='number '>400+ GAMES</th>
-				<th class='number '>BONUS</th>
-				<th class='number '>ACTUAL</th>
-				<th class='number '>CAREER AVG</th>
-				<th class='number '>H/L</th>
-				<th class='number '>CAREER BEST</th>
-				<th class='number '>FRAMES</th>
-				<th class='number '>HDCP</th>
-				<th class='number '>TICKETS</th>
+				<th class='text ' data-sort='string'>PLAYER</th>
+				<th class='number ' data-sort='int'>TOTAL</th>
+				<th class='number ' data-sort='int'>BEST</th>
+				<th class='number ' data-sort='int'>300+ GAMES</th>
+				<th class='number ' data-sort='int'>400+ GAMES</th>
+				<th class='number ' data-sort='int'>BONUS</th>
+				<th class='number ' data-sort='int'>ACTUAL</th>
+				<th class='number ' data-sort='int'>CAREER AVG</th>
+				<th class='number ' data-sort='int'>H/L</th>
+				<th class='number ' data-sort='int'>CAREER BEST</th>
+				<th class='number ' data-sort='int'>FRAMES</th>
+				<th class='number ' data-sort='int'>HDCP</th>
+				<th class='number ' data-sort='int'>TICKETS</th>
 			</tr>
 			</thead>
 			<tbody>
