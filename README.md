@@ -1,8 +1,12 @@
 # Bloomington (BMG) Skeeball League
 
-The Bloomington, Indiana Skeeball League is Indiana's only competitive skeeball league. We play monthly seasons (called skeesons) with teams comprised of 1-5 players.  
+The Bloomington, Indiana Skeeball League is Indiana's only competitive skeeball league. We play monthly seasons  with teams comprised of 1-5 players. 
 
-Each week, we play both singles (individual) play and team matches (head to head). At the end of each skeeson, the top two teams face off for the league title. We also do an elimination championship tournament for solo players. All matches are played at Atlas Ballroom in Bloomington at 530pm on Wednesday nights.
+Since Season 3, our format is each individual bowls ten frames (90 balls) and their score contributes to a team score. Team with the most points wins the night, against the teams they beat. (So beating all of the teams is equal to the # of teams that played that night.) 
+
+At the end of each season, the top two teams face off for the league championship. Our individual tournament pits anyone who has played during the regular season (and often, randos who show up on tournament day) for the league singles title.
+
+All matches are played at Atlas Ballroom in Bloomington at 730pm on Wednesday nights.
 
 #### CURRENT LEAGUE RULES
 - Every person on a team bowls 10 frames (90 balls).
@@ -11,3 +15,21 @@ Each week, we play both singles (individual) play and team matches (head to head
 - Season champion is team with the most wins. 
 - Team points winner is the team with the most points.
 - League MVP is determined by a committee, based on stats. 
+
+### LEAGUE MVPs
+Season 1: Blake Grotewold
+Season 2: Katie Birge
+Season 3: Eoban Binder
+Season 4: Ron Bronson
+
+### TEAM CHAMPIONS
+Season 1: Minnesota Mini-Muffins 
+Season 2: Minnesota Mini-Muffins
+Season 3: Jasper Juggernauts
+Season 4: No Team Champion
+
+### TOURNAMENT CHAMPIONS
+Season 1: Ron Bronson
+Season 2: Katie Birge
+Season 3: No Tournament
+Season 4: Eoban Binder
