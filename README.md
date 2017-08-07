@@ -17,14 +17,14 @@ All matches are played at Atlas Ballroom in Bloomington at 730pm on Wednesday ni
 - League MVP is determined by a committee, based on stats. 
 
 ### LEAGUE MVPs
-Season 1: Blake Grotewold
-Season 2: Katie Birge
-Season 3: Eoban Binder
-Season 4: Ron Bronson
+Season 1: Blake Grotewold<br>
+Season 2: Katie Birge<br>
+Season 3: Eoban Binder<br>
+Season 4: Ron Bronson<br>
 
 ### TEAM CHAMPIONS
-Season 1: Minnesota Mini-Muffins 
-Season 2: Minnesota Mini-Muffins
+Season 1: Minnesota Mini-Muffins<br>
+Season 2: Minnesota Mini-Muffins<br>
 Season 3: Jasper Juggernauts
 Season 4: No Team Champion
 
