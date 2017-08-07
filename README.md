@@ -25,11 +25,11 @@ Season 4: Ron Bronson<br>
 ### TEAM CHAMPIONS
 Season 1: Minnesota Mini-Muffins<br>
 Season 2: Minnesota Mini-Muffins<br>
-Season 3: Jasper Juggernauts
-Season 4: No Team Champion
+Season 3: Jasper Juggernauts<br>
+Season 4: No Team Champion<br>
 
 ### TOURNAMENT CHAMPIONS
-Season 1: Ron Bronson
-Season 2: Katie Birge
-Season 3: No Tournament
-Season 4: Eoban Binder
+Season 1: Ron Bronson<br>
+Season 2: Katie Birge<br>
+Season 3: No Tournament<br>
+Season 4: Eoban Binder<br>
